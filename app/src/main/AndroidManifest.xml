@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.abhishek.newsapp">
+    package="com.example.rushi.newsapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,7 +19,7 @@
             android:value="@string/admob_app_id" />
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.example.rushi.newsapp.ui.MainActivity"
             android:label="@string/app_name"
             android:exported="true">
             <intent-filter>
@@ -29,10 +29,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.news.DetailActivity"
+            android:name="com.example.rushi.newsapp.ui.news.DetailActivity"
             android:theme="@style/AppTheme.TransparentBar" />
 
-        <receiver android:name=".widget.SavedNewsWidget"
+        <receiver android:name="com.example.rushi.newsapp.widget.SavedNewsWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -44,7 +44,7 @@
         </receiver>
 
         <service
-            android:name=".widget.SavedNewsService"
+            android:name="com.example.rushi.newsapp.widget.SavedNewsService"
             android:exported="false" />
     </application>
 

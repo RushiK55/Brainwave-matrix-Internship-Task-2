@@ -4,11 +4,11 @@
 
     <data>
 
-        <import type="com.example.abhishek.newsapp.utils.BindingUtils" />
+        <import type="com.example.rushi.newsapp.utils.BindingUtils" />
 
         <variable
             name="source"
-            type="com.example.abhishek.newsapp.models.Source" />
+            type="com.example.rushi.newsapp.models.Source" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"

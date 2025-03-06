@@ -3,11 +3,11 @@
 
     <data>
 
-        <import type="com.example.abhishek.newsapp.utils.BindingUtils" />
+        <import type="com.example.rushi.newsapp.utils.BindingUtils" />
 
         <variable
             name="article"
-            type="com.example.abhishek.newsapp.models.Article" />
+            type="com.example.rushi.newsapp.models.Article" />
     </data>
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"

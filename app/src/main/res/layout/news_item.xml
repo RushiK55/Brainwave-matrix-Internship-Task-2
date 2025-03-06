@@ -6,11 +6,11 @@
 
     <data>
 
-        <import type="com.example.abhishek.newsapp.utils.BindingUtils" />
+        <import type="com.example.rushi.newsapp.utils.BindingUtils" />
 
         <variable
             name="news"
-            type="com.example.abhishek.newsapp.models.Article" />
+            type="com.example.rushi.newsapp.models.Article" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
